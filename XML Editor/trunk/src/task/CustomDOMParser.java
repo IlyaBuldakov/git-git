@@ -16,7 +16,7 @@ import org.w3c.dom.Document;
 public class CustomDOMParser {
     // Global value so it can be ref'd by the tree-adapter
     static Document document;
-
+    public static String FILE_NAME = "example.xml";
     public static void main(String argv[]) {
         if (argv.length != 1) {
             System.err.println("Usage: java DomEcho filename");
