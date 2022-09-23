@@ -17,6 +17,7 @@ public class CustomDOMParser {
     // Global value so it can be ref'd by the tree-adapter
     static Document document;
     // Constructor with FILE_NAME parameter should be implemented
+    // Finalize method should be implemented
     public static String FILE_NAME = "example.xml";
     public static void main(String argv[]) {
         if (argv.length != 1) {
